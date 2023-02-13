@@ -1,0 +1,116 @@
+body {
+    font-family: Arial;
+    color: #555555;
+}
+
+h2 {
+    color: black;
+    font-size: 18px;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+.header {
+    background-color: #9370DB;
+    padding: 20px;
+    text-align: center;
+}
+
+.topNav {
+    overflow: hidden;
+    background-color: #DDA0DD
+}
+
+.topNav a {
+    /* float: left; */
+    display: block;
+    color: #555555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topNav a:hover {
+    background-image: radial-gradient(circle, #DDA0DD, #9370DB);
+    color: #555555;
+}
+
+.image {
+    box-shadow: 15px 15px 15px #9370DB;
+}
+
+.video {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 2px solid #70d4db;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.thead {
+    height: 40px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.column {
+    width: 100px;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #FEFFDB;
+    cursor: pointer;
+}
+
+#instructions {
+    margin-top: 40px;
+}
+
+#grad {
+    background-image: radial-gradient(circle, #DDA0DD, #70d4db, #9370DB);
+}
+
+.footer {
+    font-size: 12px;
+    background-color: #9370DB;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 99%;
+}
+
+.footer2 {
+    font-size: 12px;
+    background-color: #9370DB;
+    text-align: center;
+    position: static;
+    bottom: 0px;
+
+}
+
+form {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}
+
+.force {
+    padding: 40px;
+}
+
+.force2 {
+    padding: 100px;
+}
